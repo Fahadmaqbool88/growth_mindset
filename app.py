@@ -1,13 +1,13 @@
 import streamlit as st
-    st.set_page_config(page_title= "growth mindset project", project_icon="★")
-    st.title("growth mindset challange: web app with streamlit  ")
-    st.header("welcome to your growth journey")
-    st.write("embrace challange, learn from mistakes, and unlock your full potential. this AI-powerd app help")
-    st.header("today' growth mindset quote ")
-    st.write("success is not final failure is not fatal: it is the courage to continue that counts.- winston churchil")
+st.set_page_config(page_title= "growth mindset project", project_icon="★")
+st.title("growth mindset challange: web app with streamlit  ")
+st.header("welcome to your growth journey")
+st.write("embrace challange, learn from mistakes, and unlock your full potential. this AI-powerd app help")
+st.header("today' growth mindset quote ")
+st.write("success is not final failure is not fatal: it is the courage to continue that counts.- winston churchil")
 
-    st.header("what's your challange today?")
-    user_input = st.text_input("describe the challange you are facing")
+st.header("what's your challange today?")
+user_input = st.text_input("describe the challange you are facing")
 if user_input:
     st.success(f"you are facing: {user_input}.keep pushing forward towards your goal!")
 else:
